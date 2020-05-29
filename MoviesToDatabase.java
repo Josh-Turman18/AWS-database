@@ -11,8 +11,8 @@ public class MoviesToDatabase {
 		// Building the item
 		Item item = new Item()
 				.withPrimaryKey("Id", 1)
-				.withString("Title", "Star Wars")
-				.withNumber("Released", 1998)
+				.withString("title", "Star Wars")
+				.withNumber("year", 1998)
 				.withNumber("Rating", 4)
 				.withString("Director", "George Lucas");
 				
